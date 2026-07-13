@@ -1,0 +1,59 @@
+{
+  "dataset_metadata": {
+    "engine_name": "SamudrikPhysiognomyMapper",
+    "version": "1.0.0",
+    "supported_features": ["face_shape", "eyebrows", "nose", "eyes", "lips_mouth", "chin", "moles"]
+  },
+  "classification_map": {
+    "face_shape": {
+      "round": "Sensitive, caring, relationship-oriented, water-shaped architecture[cite: 2].",
+      "oblong": "Practical, methodical, potentially overworked or narcissistic[cite: 2].",
+      "triangular": "Creative, intellectually persuaded, fiery temperament profile[cite: 2].",
+      "square": "Highly intelligent, analytical, decisive, dominating metal-shape profile[cite: 2].",
+      "rectangular": "Ambitious, balanced, less forceful dominance, occasionally melancholic[cite: 2].",
+      "oval": "Charming, highly diplomatic, emotionally balanced but underactive physical strength[cite: 2]."
+    },
+    "eyebrows": {
+      "shape_curved": "People-oriented mindset, processes information via personal empathy[cite: 2].",
+      "shape_straight": "Direct, factual, values raw technical metrics over emotional input[cite: 2].",
+      "shape_angled": "Demands situational control, high leadership potential, assertive[cite: 2].",
+      "position_high": "Discerning, selective, requires processing time before execution[cite: 2].",
+      "position_low": "Expressive, fast action orientation, processes information rapidly[cite: 2].",
+      "density_bushy": "Hyperactive thinker, powerful intellect, continuous processing[cite: 2].",
+      "density_thin": "Single-minded focus, prone to heightened self-consciousness[cite: 2]."
+    },
+    "nose": {
+      "aquiline": "Commanding power, high determination parameters, proud nature[cite: 2].",
+      "straight": "High patience, kindness index, balanced, strong capacity to endure[cite: 2].",
+      "roman": "High bridge convexity. Metric for force, energy, aggression, and leadership[cite: 3].",
+      "greek": "Straight aesthetic line. Refined tastes, highly sensitive to beauty[cite: 3].",
+      "length_long_4angul": "Traditional calculation parameter predicting high longevity[cite: 1].",
+      "shape_parrot": "Correlates cleanly with systemic happiness and fulfillment[cite: 1]."
+    },
+    "eyes": {
+      "color_brown": "Grounded, independent, highly creative, independent mindset[cite: 2].",
+      "color_black": "Mysterious, highly secretive, holds intrinsic intuitive capabilities[cite: 2].",
+      "spacing_far": "Broad-minded nature, dislikes dealing with hyper-granular details[cite: 3].",
+      "spacing_close": "Shrewd, highly critical, intensely fond of detail-oriented tasks[cite: 3].",
+      "depth_deep": "High observation focus, secretive, intense powers of concentration[cite: 3]."
+    },
+    "lips_mouth": {
+      "thickness_thick": "Passionate, sensual, focuses heavily on physical comforts[cite: 3].",
+      "thickness_thin": "Cold, calculating, highly tenacious, deeply practical[cite: 3].",
+      "state_closed": "Secretive profile, high degree of emotional self-control and determination[cite: 3].",
+      "state_open": "Vacillating, highly impulsive, easily speaks out, struggles with secrets[cite: 3]."
+    },
+    "chin": {
+      "profile_perpendicular": "Frank, honest, entirely reliable personality construct[cite: 3].",
+      "profile_receding": "Weak-willed processing, highly vacillating and unstable under pressure[cite: 3].",
+      "profile_projecting": "Bold, strategically shrewd, highly economical with resources[cite: 3].",
+      "shape_round_protruding": "Wisdom, strength, highly deliberate determination, inspires systemic confidence[cite: 2]."
+    },
+    "moles": {
+      "location_right_face": "Indicates a highly successful, famous, wealthy, and happy life cycle[cite: 1].",
+      "location_lower_lip": "Predicts severe financial vulnerabilities or persistent poverty[cite: 1].",
+      "location_mid_forehead": "Correlates directly to highly intelligent, clever, and sharp mental capacity[cite: 1].",
+      "location_chin": "Indicates high absorption in personal work alongside mild selfishness[cite: 1]."
+    }
+  }
+}
